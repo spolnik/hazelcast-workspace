@@ -1,0 +1,26 @@
+group 'learning-hazelcast'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.0.6'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
+            "com.hazelcast:hazelcast:3.7",
+            "org.slf4j:slf4j-api:1.7.21",
+            "ch.qos.logback:logback-classic:1.1.8"
+}
