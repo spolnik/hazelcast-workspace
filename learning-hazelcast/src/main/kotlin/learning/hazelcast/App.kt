@@ -1,3 +1,5 @@
+package learning.hazelcast
+
 import com.hazelcast.core.Hazelcast
 import com.hazelcast.core.IMap
 import java.util.concurrent.BlockingQueue
