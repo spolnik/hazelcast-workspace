@@ -23,4 +23,12 @@ dependencies {
             "com.hazelcast:hazelcast:3.7",
             "org.slf4j:slf4j-api:1.7.21",
             "ch.qos.logback:logback-classic:1.1.8"
+
+    compile 'org.apache.zookeeper:zookeeper:3.4.9'
+
+    compile 'commons-codec:commons-codec:1.9'
+    
+    testCompile 'junit:junit:4.12',
+            'org.assertj:assertj-core:3.6.2',
+            'pl.pragmatists:JUnitParams:1.0.6'
 }
